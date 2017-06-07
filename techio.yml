@@ -1,0 +1,25 @@
+title : Technology sandbox
+plan:
+  - title: Markdown syntax
+    statement: markdowns/syntax.md
+  - title: One column
+    statement: markdowns/1column.md
+  - title: Two columns
+    statement: markdowns/2columns.md
+  - title: Viewer
+    statement: markdowns/viewer.md
+  - title: Math
+    statement: markdowns/math.md
+  - title: Magic links
+    statement: markdowns/magiclinks.md
+  - title: Quiz
+    statement: markdowns/quiz.md
+
+projects:
+  php:
+    root: projects/php
+    runner: php
+  r:
+    root: projects/r
+    runner: r-base
+    buildCommand: Rscript init.R

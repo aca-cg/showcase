@@ -1,0 +1,1 @@
+Use this playground to manipulate various language and discover how to create function and other stuff in all languages.  
